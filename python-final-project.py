@@ -6,3 +6,9 @@ print(students)
 
 num_students = len(students)
 print(num_students)
+
+for student in students:
+    print(student)
+
+print ("hello")
+print ("how are you")
