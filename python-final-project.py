@@ -12,3 +12,5 @@ for student in students:
 
 print ("hello")
 print ("how are you")
+print ("i hope i figured it out")
+print ("works i guess?")
