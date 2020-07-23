@@ -9,9 +9,9 @@ length = len(students)
 print("The number of students in this class is: ",length)
 
 print("And now they will be separated into groups of two: \n")
-for student in range (0,7):
-
-    print("Group : ", random.choice(students) + " + " + random.choice(students) )
+for index, value in enumerate(students):
+    if index % 2 == 0:
+        print('Group : ' + value + ' + ' + students[index + 1])
 
 
 # team = random.choice(students) + random.choice(students)
